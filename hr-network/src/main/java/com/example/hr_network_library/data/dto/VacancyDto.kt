@@ -19,7 +19,7 @@ data class VacancyDto(
     @SerializedName("experience")
     val experience: String,
     @SerializedName("id")
-    val id: String,
+    val id: String? = null,
     @SerializedName("openingDate")
     val openingDate: String,
     @SerializedName("phone")

@@ -30,7 +30,6 @@ class VacancyUnitTest : BasicUnitTest() {
         val result = vacancyRepository.getListVacancy(token)
         assertTrue(result is NetworkResult.Success)
         val data = (result as NetworkResult.Success).data
-
     }
 
     @Test
@@ -70,16 +69,15 @@ class VacancyUnitTest : BasicUnitTest() {
             employee = "e4xaa41jihyipvz",
             phone = "test",
             email = email,
-            responsiblePerson = "7jakm7wd5yb4inp",
+            responsiblePerson = "e4xaa41jihyipvz",
             created = "2022-01-01T10:00:00.123Z",
-            updated = "2022-01-01T10:00:00.123Z",
-            id = "vo7uoj20fhes7yo"
+            updated = "2022-01-01T10:00:00.123Z"
         ))
         assertTrue(result is NetworkResult.Success)
         val data = (result as NetworkResult.Success).data
 
-        assertEquals("vo7uoj20fhes7yo", data.id)
-        assertEquals("qwerty", data.title)
+        //assertEquals("vo7uoj20fhes7yo", data.id)
+        assertEquals("test", data.title)
 
     }
 

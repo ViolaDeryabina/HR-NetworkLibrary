@@ -16,7 +16,7 @@ data class VacancyEntities (
     @SerializedName("experience")
     val experience: String,
     @SerializedName("id")
-    val id: String,
+    val id: String?,
     @SerializedName("phone")
     val phone: String,
     @SerializedName("position")
