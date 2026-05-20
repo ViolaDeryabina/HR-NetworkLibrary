@@ -5,9 +5,10 @@ import com.example.hr_network_library.data.dto.AuthRequest
 import com.example.hr_network_library.data.dto.AuthResponse
 import com.example.hr_network_library.data.dto.ProfileDto
 import com.example.hr_network_library.data.dto.RegisterRequest
+import com.example.hr_network_library.domain.entities.Profile
 
 interface AuthenticationRepository {
-    suspend fun register(registerRequest: RegisterRequest): NetworkResult<ProfileDto>
+    suspend fun register(registerRequest: RegisterRequest): NetworkResult<Profile>
     suspend fun authorization( authRequest: AuthRequest):  NetworkResult<AuthResponse>
 
 }

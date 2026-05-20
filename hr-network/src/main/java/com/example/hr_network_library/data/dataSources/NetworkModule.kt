@@ -2,7 +2,11 @@ package com.example.hr_network_library.data.dataSources
 
 import com.example.hr_network_library.common.logDebug
 import com.example.hr_network_library.data.dataSources.service.AuthenticationService
-import com.example.hr_network_library.domain.repository.AuthenticationRepository
+import com.example.hr_network_library.data.dataSources.service.CandidateService
+import com.example.hr_network_library.data.dataSources.service.EmployeeService
+import com.example.hr_network_library.data.dataSources.service.HiringService
+import com.example.hr_network_library.data.dataSources.service.ProfileService
+import com.example.hr_network_library.data.dataSources.service.VacancyService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -51,4 +55,30 @@ object NetworkModule {
     @Singleton
     fun provideAuth(retrofit: Retrofit): AuthenticationService =
         retrofit.create(AuthenticationService::class.java)
+
+    @Provides
+    @Singleton
+    fun provideProfile(retrofit: Retrofit): ProfileService =
+        retrofit.create(ProfileService::class.java)
+
+    @Provides
+    @Singleton
+    fun provideCandidate(retrofit: Retrofit): CandidateService =
+        retrofit.create(CandidateService::class.java)
+
+    @Provides
+    @Singleton
+    fun provideEmployee(retrofit: Retrofit): EmployeeService =
+        retrofit.create(EmployeeService::class.java)
+
+
+    @Provides
+    @Singleton
+    fun provideVacancy(retrofit: Retrofit): VacancyService =
+        retrofit.create(VacancyService::class.java)
+
+    @Provides
+    @Singleton
+    fun provideHiring(retrofit: Retrofit): HiringService =
+        retrofit.create(HiringService::class.java)
 }
