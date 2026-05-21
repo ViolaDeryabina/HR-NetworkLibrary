@@ -5,6 +5,7 @@ import com.example.hr_network_library.data.dataSources.NetworkResult
 import com.example.hr_network_library.data.dataSources.map
 import com.example.hr_network_library.data.dataSources.service.VacancyService
 import com.example.hr_network_library.data.dto.VacancyDto
+import com.example.hr_network_library.data.dto.VacancyResponse
 import com.example.hr_network_library.data.mapper.toDomain
 import com.example.hr_network_library.domain.entities.VacancyEntities
 import com.example.hr_network_library.domain.repository.VacancyRepository
@@ -15,7 +16,7 @@ import javax.inject.Inject
 // Дата создания 20-05-2026
 class VacancyRepositoryImpl @Inject constructor(private val api: VacancyService) :
     VacancyRepository {
-    override suspend fun getListVacancy(token: String): NetworkResult<VacancyDto> {
+    override suspend fun getListVacancy(token: String): NetworkResult<VacancyResponse> {
         return ApiCallAdapter.safeApiCall { api.getListVacancy(token) }
     }
 

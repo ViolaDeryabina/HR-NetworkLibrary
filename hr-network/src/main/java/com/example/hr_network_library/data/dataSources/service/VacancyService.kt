@@ -1,6 +1,7 @@
 package com.example.hr_network_library.data.dataSources.service
 
 import com.example.hr_network_library.data.dto.VacancyDto
+import com.example.hr_network_library.data.dto.VacancyResponse
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET
@@ -11,7 +12,7 @@ import retrofit2.http.Path
 
 interface VacancyService {
     @GET("collections/vacancy/records")
-    suspend fun getListVacancy(@Header("Authorization") token: String): VacancyDto
+    suspend fun getListVacancy(@Header("Authorization") token: String): VacancyResponse
 
     @GET("collections/vacancy/records/{id}")
     suspend fun getVacancyById(
