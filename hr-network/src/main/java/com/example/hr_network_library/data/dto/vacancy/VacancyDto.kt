@@ -1,8 +1,9 @@
-package com.example.hr_network_library.data.dto
+package com.example.hr_network_library.data.dto.vacancy
+
 
 import com.google.gson.annotations.SerializedName
 
-data class Vacancy(
+data class VacancyDto(
     @SerializedName("city")
     val city: String,
     @SerializedName("created")
@@ -18,7 +19,7 @@ data class Vacancy(
     @SerializedName("experience")
     val experience: String,
     @SerializedName("id")
-    val id: String,
+    val id: String? = null,
     @SerializedName("openingDate")
     val openingDate: String,
     @SerializedName("phone")
@@ -26,7 +27,7 @@ data class Vacancy(
     @SerializedName("position")
     val position: String,
     @SerializedName("public")
-    val `public`: Boolean,
+    val public: Boolean,
     @SerializedName("quantity")
     val quantity: Int,
     @SerializedName("requirements")

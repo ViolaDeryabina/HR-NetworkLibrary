@@ -1,8 +1,8 @@
 package com.example.hr_network_library.domain.repository
 
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.dto.VacancyDto
-import com.example.hr_network_library.data.dto.VacancyResponse
+import com.example.hr_network_library.data.result.NetworkResult
+import com.example.hr_network_library.data.dto.vacancy.VacancyDto
+import com.example.hr_network_library.data.dto.vacancy.VacancyResponse
 
 interface VacancyRepository {
     suspend fun getListVacancy(token: String): NetworkResult<VacancyResponse>

@@ -1,9 +1,7 @@
 package com.example.hr_network_library.domain.repository
 
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.dto.Comment
-import retrofit2.http.GET
-import retrofit2.http.Header
+import com.example.hr_network_library.data.result.NetworkResult
+import com.example.hr_network_library.data.dto.comment.Comment
 
 interface HiringRepository {
     suspend fun getListDepartment(token: String): NetworkResult<Comment>

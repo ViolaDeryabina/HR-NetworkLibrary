@@ -1,13 +1,10 @@
 package com.example.hr_network_library.data.repositoryImpl
 
-import com.example.hr_network_library.data.dataSources.ApiCallAdapter
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.dataSources.map
-import com.example.hr_network_library.data.dataSources.service.VacancyService
-import com.example.hr_network_library.data.dto.VacancyDto
-import com.example.hr_network_library.data.dto.VacancyResponse
-import com.example.hr_network_library.data.mapper.toDomain
-import com.example.hr_network_library.domain.entities.VacancyEntities
+import com.example.hr_network_library.data.result.ApiCallAdapter
+import com.example.hr_network_library.data.result.NetworkResult
+import com.example.hr_network_library.data.service.VacancyService
+import com.example.hr_network_library.data.dto.vacancy.VacancyDto
+import com.example.hr_network_library.data.dto.vacancy.VacancyResponse
 import com.example.hr_network_library.domain.repository.VacancyRepository
 import javax.inject.Inject
 

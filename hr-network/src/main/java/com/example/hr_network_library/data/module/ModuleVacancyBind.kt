@@ -1,6 +1,5 @@
 package com.example.hr_network_library.data.module
 
-import com.example.hr_network_library.data.dataSources.service.VacancyService
 import com.example.hr_network_library.data.repositoryImpl.VacancyRepositoryImpl
 import com.example.hr_network_library.domain.repository.VacancyRepository
 import dagger.Binds

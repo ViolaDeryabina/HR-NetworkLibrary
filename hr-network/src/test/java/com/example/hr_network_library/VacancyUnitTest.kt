@@ -1,7 +1,7 @@
 package com.example.hr_network_library
 
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.dto.VacancyDto
+import com.example.hr_network_library.data.result.NetworkResult
+import com.example.hr_network_library.data.dto.vacancy.VacancyDto
 import com.example.hr_network_library.data.repositoryImpl.VacancyRepositoryImpl
 import dagger.hilt.android.testing.HiltAndroidTest
 import dagger.hilt.android.testing.HiltTestApplication

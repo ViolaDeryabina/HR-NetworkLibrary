@@ -1,6 +1,5 @@
 package com.example.hr_network_library.data.module
 
-import com.example.hr_network_library.data.dataSources.service.AuthenticationService
 import com.example.hr_network_library.data.repositoryImpl.AuthenticationRepositoryImpl
 import com.example.hr_network_library.domain.repository.AuthenticationRepository
 import dagger.Binds

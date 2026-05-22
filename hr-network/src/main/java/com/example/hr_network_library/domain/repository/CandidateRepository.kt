@@ -1,7 +1,7 @@
 package com.example.hr_network_library.domain.repository
 
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.dto.Comment
+import com.example.hr_network_library.data.result.NetworkResult
+import com.example.hr_network_library.data.dto.comment.Comment
 import com.example.hr_network_library.data.dto.candidate.Items
 
 interface CandidateRepository {

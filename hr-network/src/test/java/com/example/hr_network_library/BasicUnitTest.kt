@@ -1,9 +1,9 @@
 package com.example.hr_network_library
 
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.dto.AuthRequest
-import com.example.hr_network_library.data.dto.AuthResponse
-import com.example.hr_network_library.data.dto.RegisterRequest
+import com.example.hr_network_library.data.result.NetworkResult
+import com.example.hr_network_library.data.dto.auth.AuthRequest
+import com.example.hr_network_library.data.dto.auth.AuthResponse
+import com.example.hr_network_library.data.dto.auth.RegisterRequest
 import com.example.hr_network_library.data.repositoryImpl.AuthenticationRepositoryImpl
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest

@@ -1,12 +1,9 @@
 package com.example.hr_network_library
 
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.repositoryImpl.EmployeeRepositoryImpl
+import com.example.hr_network_library.data.result.NetworkResult
 import com.example.hr_network_library.data.repositoryImpl.HiringRepositoryImpl
-import com.example.hr_network_library.domain.repository.HiringRepository
 import dagger.hilt.android.testing.HiltAndroidTest
 import dagger.hilt.android.testing.HiltTestApplication
-import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertTrue
 import kotlinx.coroutines.test.runTest
 import org.junit.Test

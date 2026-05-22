@@ -1,6 +1,6 @@
 package com.example.hr_network_library.data.mapper
 
-import com.example.hr_network_library.data.dto.ProfileDto
+import com.example.hr_network_library.data.dto.profile.ProfileDto
 import com.example.hr_network_library.domain.entities.Profile
 
 fun ProfileDto.toDomain(): Profile {

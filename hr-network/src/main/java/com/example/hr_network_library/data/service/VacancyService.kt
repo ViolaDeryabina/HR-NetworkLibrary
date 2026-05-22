@@ -1,7 +1,7 @@
-package com.example.hr_network_library.data.dataSources.service
+package com.example.hr_network_library.data.service
 
-import com.example.hr_network_library.data.dto.VacancyDto
-import com.example.hr_network_library.data.dto.VacancyResponse
+import com.example.hr_network_library.data.dto.vacancy.VacancyDto
+import com.example.hr_network_library.data.dto.vacancy.VacancyResponse
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET

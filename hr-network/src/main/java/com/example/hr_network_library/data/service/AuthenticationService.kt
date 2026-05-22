@@ -1,9 +1,9 @@
-package com.example.hr_network_library.data.dataSources.service
+package com.example.hr_network_library.data.service
 
-import com.example.hr_network_library.data.dto.AuthRequest
-import com.example.hr_network_library.data.dto.AuthResponse
-import com.example.hr_network_library.data.dto.ProfileDto
-import com.example.hr_network_library.data.dto.RegisterRequest
+import com.example.hr_network_library.data.dto.auth.AuthRequest
+import com.example.hr_network_library.data.dto.auth.AuthResponse
+import com.example.hr_network_library.data.dto.profile.ProfileDto
+import com.example.hr_network_library.data.dto.auth.RegisterRequest
 import retrofit2.http.Body
 import retrofit2.http.POST
 

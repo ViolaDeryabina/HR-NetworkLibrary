@@ -1,6 +1,6 @@
 package com.example.hr_network_library
 
-import com.example.hr_network_library.data.dataSources.NetworkResult
+import com.example.hr_network_library.data.result.NetworkResult
 import com.example.hr_network_library.data.repositoryImpl.ProfileRepositoryImpl
 import dagger.hilt.android.testing.HiltAndroidTest
 import dagger.hilt.android.testing.HiltTestApplication

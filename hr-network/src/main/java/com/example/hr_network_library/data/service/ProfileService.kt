@@ -1,6 +1,6 @@
-package com.example.hr_network_library.data.dataSources.service
+package com.example.hr_network_library.data.service
 
-import com.example.hr_network_library.data.dto.AuthResponse
+import com.example.hr_network_library.data.dto.auth.AuthResponse
 import retrofit2.http.Header
 import retrofit2.http.POST
 

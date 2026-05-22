@@ -1,6 +1,5 @@
 package com.example.hr_network_library.data.module
 
-import com.example.hr_network_library.data.dataSources.service.ProfileService
 import com.example.hr_network_library.data.repositoryImpl.ProfileRepositoryImpl
 import com.example.hr_network_library.domain.repository.ProfileRepository
 import dagger.Binds

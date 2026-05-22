@@ -1,12 +1,12 @@
 package com.example.hr_network_library.data.repositoryImpl
 
-import com.example.hr_network_library.data.dataSources.ApiCallAdapter
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.dataSources.map
-import com.example.hr_network_library.data.dataSources.service.AuthenticationService
-import com.example.hr_network_library.data.dto.AuthRequest
-import com.example.hr_network_library.data.dto.AuthResponse
-import com.example.hr_network_library.data.dto.RegisterRequest
+import com.example.hr_network_library.data.result.ApiCallAdapter
+import com.example.hr_network_library.data.result.NetworkResult
+import com.example.hr_network_library.data.result.map
+import com.example.hr_network_library.data.service.AuthenticationService
+import com.example.hr_network_library.data.dto.auth.AuthRequest
+import com.example.hr_network_library.data.dto.auth.AuthResponse
+import com.example.hr_network_library.data.dto.auth.RegisterRequest
 import com.example.hr_network_library.data.mapper.toDomain
 import com.example.hr_network_library.domain.entities.Profile
 import com.example.hr_network_library.domain.repository.AuthenticationRepository

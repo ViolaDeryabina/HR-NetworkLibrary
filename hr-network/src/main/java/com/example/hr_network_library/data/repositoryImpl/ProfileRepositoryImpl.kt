@@ -1,9 +1,9 @@
 package com.example.hr_network_library.data.repositoryImpl
 
-import com.example.hr_network_library.data.dataSources.ApiCallAdapter
-import com.example.hr_network_library.data.dataSources.NetworkResult
-import com.example.hr_network_library.data.dataSources.service.ProfileService
-import com.example.hr_network_library.data.dto.AuthResponse
+import com.example.hr_network_library.data.result.ApiCallAdapter
+import com.example.hr_network_library.data.result.NetworkResult
+import com.example.hr_network_library.data.service.ProfileService
+import com.example.hr_network_library.data.dto.auth.AuthResponse
 import com.example.hr_network_library.domain.repository.ProfileRepository
 import javax.inject.Inject
 

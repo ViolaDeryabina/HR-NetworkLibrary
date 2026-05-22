@@ -1,4 +1,4 @@
-package com.example.hr_network_library.data.dataSources.service
+package com.example.hr_network_library.data.service
 
 import com.example.hr_network_library.data.dto.candidate.EmployeeDto
 import retrofit2.http.GET

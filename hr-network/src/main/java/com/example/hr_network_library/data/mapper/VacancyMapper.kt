@@ -1,6 +1,6 @@
 package com.example.hr_network_library.data.mapper
 
-import com.example.hr_network_library.data.dto.VacancyDto
+import com.example.hr_network_library.data.dto.vacancy.VacancyDto
 import com.example.hr_network_library.domain.entities.VacancyEntities
 
 fun VacancyDto.toDomain(): VacancyEntities {

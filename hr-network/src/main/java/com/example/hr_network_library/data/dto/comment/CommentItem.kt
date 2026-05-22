@@ -1,4 +1,4 @@
-package com.example.hr_network_library.data.dto
+package com.example.hr_network_library.data.dto.comment
 
 import com.google.gson.annotations.SerializedName
 
