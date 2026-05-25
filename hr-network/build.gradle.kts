@@ -64,7 +64,6 @@ dependencies {
     testImplementation(libs.hilt.android.testing)
     kspTest(libs.dagger.hilt.android.compiler)
     testImplementation(libs.robolectric)
-    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
