@@ -14,7 +14,6 @@ import javax.inject.Inject
 
 @HiltAndroidTest
 @Config(application = HiltTestApplication::class)
-@RunWith(RobolectricTestRunner::class)
 class HiringUnitTest: BasicUnitTest() {
     @Inject
     lateinit var hiringRepository: HiringRepositoryImpl

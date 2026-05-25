@@ -1,4 +1,4 @@
-package com.example.hr_network_library.data.di
+package com.example.hr_network_library.data.di.network
 
 import com.example.hr_network_library.data.service.CandidateService
 import dagger.Module

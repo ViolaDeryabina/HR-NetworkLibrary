@@ -15,7 +15,6 @@ import org.robolectric.annotation.Config
 
 @HiltAndroidTest
 @Config(application = HiltTestApplication::class)
-@RunWith(RobolectricTestRunner::class)
 class AuthUnitTest : BasicUnitTest() {
 
     @Test

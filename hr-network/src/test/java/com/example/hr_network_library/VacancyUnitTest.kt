@@ -16,7 +16,6 @@ import javax.inject.Inject
 
 @HiltAndroidTest
 @Config(application = HiltTestApplication::class)
-@RunWith(RobolectricTestRunner::class)
 class VacancyUnitTest : BasicUnitTest() {
 
     @Inject

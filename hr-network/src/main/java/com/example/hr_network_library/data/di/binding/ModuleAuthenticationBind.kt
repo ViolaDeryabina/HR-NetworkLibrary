@@ -1,4 +1,4 @@
-package com.example.hr_network_library.data.module
+package com.example.hr_network_library.data.di.binding
 
 import com.example.hr_network_library.data.repositoryImpl.AuthenticationRepositoryImpl
 import com.example.hr_network_library.domain.repository.AuthenticationRepository
