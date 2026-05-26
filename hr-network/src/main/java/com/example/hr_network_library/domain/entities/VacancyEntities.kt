@@ -2,6 +2,9 @@ package com.example.hr_network_library.domain.entities
 
 import com.google.gson.annotations.SerializedName
 
+// Назначение: Entities для работы с вакансиями
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 data class VacancyEntities (
     @SerializedName("city")
     val city: String,

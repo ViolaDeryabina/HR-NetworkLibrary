@@ -6,6 +6,9 @@ import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Query
 
+// Назначение: Интерфейс для взаимодействия с API для работы с кандидатами
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 interface CandidateService {
     @GET("collections/candidates/records")
     suspend fun getListCandidate(

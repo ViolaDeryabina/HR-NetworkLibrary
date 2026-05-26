@@ -10,6 +10,9 @@ import retrofit2.http.PATCH
 import retrofit2.http.POST
 import retrofit2.http.Path
 
+// Назначение: Интерфейс для взаимодействия с API для работы с вакансиями
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 interface VacancyService {
     @GET("collections/vacancy/records")
     suspend fun getListVacancy(@Header("Authorization") token: String): VacancyResponse

@@ -7,6 +7,9 @@ import com.example.hr_network_library.data.dto.auth.RegisterRequest
 import retrofit2.http.Body
 import retrofit2.http.POST
 
+// Назначение: Интерфейс для взаимодействия с API для регистрации и входа
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 interface AuthenticationService {
     @POST("collections/users/records")
     suspend fun register(@Body registerRequest: RegisterRequest): ProfileDto

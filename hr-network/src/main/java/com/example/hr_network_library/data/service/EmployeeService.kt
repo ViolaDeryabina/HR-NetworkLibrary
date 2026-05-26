@@ -5,6 +5,9 @@ import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Path
 
+// Назначение: Интерфейс для взаимодействия с API для работы с Employee
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 interface EmployeeService {
     @GET("collections/employee/records")
     suspend fun getListHR(@Header("Authorization") token: String): EmployeeDto

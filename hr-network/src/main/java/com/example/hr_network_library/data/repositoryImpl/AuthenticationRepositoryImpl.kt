@@ -12,7 +12,7 @@ import com.example.hr_network_library.domain.entities.Profile
 import com.example.hr_network_library.domain.repository.AuthenticationRepository
 import javax.inject.Inject
 
-// Назначение: Реализация репозитория для входп и регистрации
+// Назначение: Реализация репозитория для входа и регистрации
 // Автор: Дерябина В.Н.
 // Дата создания 20-05-2026
 class AuthenticationRepositoryImpl @Inject constructor(private val api: AuthenticationService) :

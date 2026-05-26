@@ -8,6 +8,9 @@ import com.example.hr_network_library.data.dto.candidate.Items
 import com.example.hr_network_library.domain.repository.CandidateRepository
 import javax.inject.Inject
 
+// Назначение: Реализация репозитория для работы с кандидатами
+// Автор: Дерябина В.Н.
+// Дата создания 20-05-2026
 class CandidateRepositoryImpl @Inject constructor(private val api: CandidateService) :
     CandidateRepository {
     override suspend fun getListCandidate(

@@ -2,7 +2,9 @@ package com.example.hr_network_library.data.dto.vacancy
 
 
 import com.google.gson.annotations.SerializedName
-
+// Назначение: Класс для получения данных о вакансии
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 data class VacancyDto(
     @SerializedName("city")
     val city: String,

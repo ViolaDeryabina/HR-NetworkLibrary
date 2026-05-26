@@ -1,0 +1,13 @@
+{
+  "token": "Token",
+  "record": {
+    "avatar": null,
+    "created": "25-05-2026",
+    "email": "test@test.com",
+    "firstName": "Ivan",
+    "id": "123",
+    "lastName": "Ivanov",
+    "updated": "25-05-2026"
+  }
+}
+

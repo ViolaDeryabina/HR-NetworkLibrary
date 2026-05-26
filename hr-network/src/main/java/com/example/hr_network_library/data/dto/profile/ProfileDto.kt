@@ -2,6 +2,9 @@ package com.example.hr_network_library.data.dto.profile
 
 import com.google.gson.annotations.SerializedName
 
+// Назначение: Класс для получения данных о профиле
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 data class ProfileDto(
     @SerializedName("avatar")
     val avatar: String,

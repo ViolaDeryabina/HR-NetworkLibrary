@@ -8,6 +8,9 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
+// Назначение: Создание связи между репозиторием и реализацией для Вакансий
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class ModuleVacancyBind {

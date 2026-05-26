@@ -14,6 +14,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import java.io.File
 
+// Назначение: Интеграционный тест для проверки работы регистрации
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 @RunWith(AndroidJUnit4::class)
 class AuthIntegrationTest {
     @get:Rule

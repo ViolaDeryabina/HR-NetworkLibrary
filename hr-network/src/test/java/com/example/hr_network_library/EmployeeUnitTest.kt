@@ -13,6 +13,9 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import javax.inject.Inject
 
+// Назначение: Интеграционный тест для проверки работы employeeRepository с запросом к реальному серверу
+// Автор: Дерябина В.Н.
+// Дата создания: 26-05-2026
 @HiltAndroidTest
 @Config(application = HiltTestApplication::class)
 class EmployeeUnitTest: BasicUnitTest() {
